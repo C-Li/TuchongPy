@@ -8,7 +8,7 @@ import shutil
 headers = {
     'User-Agent': "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/22.0.1207.1 Safari/537.1"}
 
-f = open('tuchong/items.json', 'r', encoding='UTF-8')  # json文件的路径
+f = open('items.json', 'r', encoding='UTF-8')  # json文件的路径
 jsonArray = json.load(f)
 
 filePath = r"D:\\"  # 下载到D盘
